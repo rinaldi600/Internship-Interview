@@ -12,7 +12,7 @@ $(function() {
         const boxContent = $('#boxContent');
         $.each(msg.categories, function(key, value) {
             elementHTML += `
-            <div style='background: url("${msg.categories[key].strCategoryThumb}"); background-origin: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;' class='max-w-[384px] w-full relative cursor-pointer min-h-[384px] rounded-lg shadow-[0_3px_8px_0px_rgba(99,99,99,0.2)] overflow-hidden'>
+            <div style='background: url("${msg.categories[key].strCategoryThumb}"); background-origin: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;' class='bg-red-300 max-w-[384px] w-full relative cursor-pointer min-h-[384px] rounded-lg shadow-[0_3px_8px_0px_rgba(99,99,99,0.2)] overflow-hidden'>
                 <div class="detail-category absolute flex items-center justify-center inset-x-0 p-2 bottom-0 min-h-[100px] bg-black/50">
                     <input type="hidden" value="${msg.categories[key].strCategory
                     }">   
@@ -24,7 +24,7 @@ $(function() {
         })
         console.log(elementHTML);
         boxContent.append(elementHTML);
-
+        
         const detailCategory = $('.detail-category');
 
         detailCategory.each(function() {
