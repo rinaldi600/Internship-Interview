@@ -665,6 +665,18 @@ video {
   background-image: url("/img/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
 }
 
+.bg-\[url\(\"\.\/img\/lily-banse--YHSwy6uqvk-unsplash\.jpg\"\)\] {
+  background-image: url("./img/lily-banse--YHSwy6uqvk-unsplash.jpg");
+}
+
+.bg-\[url\(\"\.\/img\/rachel-park-hrlvr2ZlUNk-unsplash\.jpg\"\)\] {
+  background-image: url("./img/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
+}
+
+.bg-\[url\(\"\.\/img\/jimmy-dean-Yn0l7uwBrpw-unsplash\.jpg\"\)\] {
+  background-image: url("./img/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+}
+
 .bg-cover {
   background-size: cover;
 }
