@@ -4,6 +4,7 @@
   },
   "type": "module",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "jquery": "^3.7.0"
   }
 }
