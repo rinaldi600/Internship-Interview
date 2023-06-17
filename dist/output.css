@@ -772,6 +772,14 @@ video {
   outline-offset: 2px;
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:decoration-2:hover {
+  text-decoration-thickness: 2px;
+}
+
 @media (max-width: 767px) {
   .md\:w-full {
     width: 100%;
