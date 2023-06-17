@@ -534,15 +534,6 @@ video {
   inset: 0px;
 }
 
-.inset-x-0 {
-  left: 0px;
-  right: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .mt-12 {
   margin-top: 3rem;
 }
@@ -600,10 +591,6 @@ video {
   min-height: max-content;
 }
 
-.min-h-\[100px\] {
-  min-height: 100px;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -614,14 +601,6 @@ video {
 
 .w-\[60\%\] {
   width: 60%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.max-w-\[384px\] {
-  max-width: 384px;
 }
 
 .cursor-pointer {
@@ -648,22 +627,6 @@ video {
   gap: 1.25rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-48 {
-  gap: 12rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .break-words {
   overflow-wrap: break-word;
 }
@@ -688,11 +651,6 @@ video {
 
 .bg-black\/50 {
   background-color: rgb(0 0 0 / 0.5);
-}
-
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\"\/img\/jimmy-dean-Yn0l7uwBrpw-unsplash\.jpg\"\)\] {
@@ -789,10 +747,6 @@ video {
   font-weight: 500;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .text-\[\#666666\] {
   --tw-text-opacity: 1;
   color: rgb(102 102 102 / var(--tw-text-opacity));
@@ -813,31 +767,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
-}
-
-.decoration-2 {
-  text-decoration-thickness: 2px;
-}
-
-.shadow-\[0_3px_8px_0px_rgba\(99\2c 99\2c 99\2c 0\.2\)\] {
-  --tw-shadow: 0 3px 8px 0px rgba(99,99,99,0.2);
-  --tw-shadow-colored: 0 3px 8px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
-}
-
-.hover\:decoration-2:hover {
-  text-decoration-thickness: 2px;
 }
 
 @media (max-width: 767px) {
