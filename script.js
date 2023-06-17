@@ -12,8 +12,8 @@ $(function() {
         const boxContent = $('#boxContent');
         $.each(msg.categories, function(key, value) {
             elementHTML += `
-            <div style='background: url("${msg.categories[key].strCategoryThumb}"); background-origin: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;' class='bg-red-300 w-[384px] relative cursor-pointer min-h-[384px] rounded-lg shadow-[0_3px_8px_0px_rgba(99,99,99,0.2)] overflow-hidden'>
-                <div class="detail-category absolute flex items-center justify-center inset-x-0 p-2 bottom-0 min-h-[100px] bg-black/50">
+            <div style='background: url("${msg.categories[key].strCategoryThumb}"); background-origin: border-box; background-position: center; background-repeat: no-repeat; background-size: cover; width: 384px; position:relative; cursor: pointer; min-height: 384px;' class='rounded-lg shadow-[0_3px_8px_0px_rgba(99,99,99,0.2)] overflow-hidden'>
+                <div style='position: absolute; display:flex; width:100%; bottom: 0; min-height: 100px; align-items: center; justify-content: center; padding: 2px; ' class="detail-category bg-black/50">
                     <input type="hidden" value="${msg.categories[key].strCategory
                     }">   
                     <h1 class="hover:underline hover:decoration-2 text-white break-words font-semibold text-3xl">${msg.categories[key].strCategory
@@ -42,9 +42,8 @@ $(function() {
                   request.done(function( msg ) {
                     $.each(msg.meals, function(key, value) {
                         elementHTML += `
-                        <div id='listFilter' style='background: url("${msg.meals[key].strMealThumb
-                        }"); background-origin: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;' class='w-[384px] relative cursor-pointer min-h-[384px] rounded-lg shadow-[0_3px_8px_0px_rgba(99,99,99,0.2)] overflow-hidden'>
-                            <div class="absolute flex items-center justify-center inset-x-0 p-2 bottom-0 min-h-[100px] bg-black/50">  
+                        <div style='background: url("${msg.meals[key].strMealThumb}"); background-origin: border-box; background-position: center; background-repeat: no-repeat; background-size: cover; width: 384px; position:relative; cursor: pointer; min-height: 384px;' class='rounded-lg shadow-[0_3px_8px_0px_rgba(99,99,99,0.2)] overflow-hidden'>
+                        <div style='position: absolute; display:flex; width: 100%; bottom: 0; min-height: 100px; align-items: center; justify-content: center;' class="detail-category p-2 bg-black/50">
                                 <h1 class="hover:underline hover:decoration-2 text-white break-words font-semibold text-3xl">${msg.meals[key].strMeal}</h1>
                             </div>
                         </div>
