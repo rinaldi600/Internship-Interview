@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "jquery": "^3.7.0"
   }
 }
