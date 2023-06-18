@@ -1,5 +1,3 @@
-console.log("WORK");
-
 $(function() {
     const resetFilter = $('#resetFilter');
 
@@ -24,7 +22,6 @@ $(function() {
             </div>
             `
         })
-        console.log(elementHTML);
         boxContent.append(elementHTML);
         
         const detailCategory = $('.detail-category');
