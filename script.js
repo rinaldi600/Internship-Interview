@@ -1,3 +1,5 @@
+console.log("WORK");
+
 $(function() {
     const resetFilter = $('#resetFilter');
 
